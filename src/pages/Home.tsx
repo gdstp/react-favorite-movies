@@ -10,6 +10,7 @@ import PaginationContainer from '../components/PaginationContainer';
 import useDeboucer from '../hooks/deboucer';
 import TopBar from '../components/TopBar';
 import { fetchData } from '../store/actions/MovieAction';
+import { Alert } from '@material-ui/lab';
 
 const Home: React.FC = () => {
    const { movieName } = useContext(AppCtx)
@@ -38,6 +39,7 @@ const Home: React.FC = () => {
             />
 
             <GridContainer>
+               {data.Search === undefined && <Alert severity="info" style={{ width: '100%' }}>Start by searching your movie.</Alert>}
                {data.Search && data.Search.map((item, index) => (
                   <Card
                      key={index}

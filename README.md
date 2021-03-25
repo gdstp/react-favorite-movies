@@ -5,6 +5,10 @@ This project was built to practice web development using ReactJS. Mainly focusin
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
+## Working App
+
+Check the [Movies App](https://gdstp.github.io/react-favorite-movies/) 
+
 ## Available Scripts
 
 In the project directory, you can run:

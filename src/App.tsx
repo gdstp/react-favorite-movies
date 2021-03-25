@@ -9,7 +9,7 @@ import './styles.css'
 function App() {
   return (
     <AppProvider>
-      <BrowserRouter basename ="/directory-name">
+      <BrowserRouter basename={window.location.pathname || ''}>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/favorites" component={Favorites} />
