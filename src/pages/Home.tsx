@@ -48,7 +48,7 @@ const Home: React.FC = () => {
                   />
                ))}
             </GridContainer>
-            
+
             <PaginationContainer
                total={data.totalResults}
                onChange={(currentPage) => setPage(currentPage)}

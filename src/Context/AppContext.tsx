@@ -1,6 +1,5 @@
 import React, { useReducer, useState } from 'react'
 import { favoriteMovie, getFavoritesInitialState, loadFavorites, removeFavorite } from '../store/actions/FavoriteAction'
-import { fetchData } from '../store/actions/MovieAction'
 import FavoriteReducer from '../store/reducers/FavoriteReducer'
 import { Storage } from '../store/types/FavoriteTypes'
 

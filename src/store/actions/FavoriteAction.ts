@@ -34,7 +34,7 @@ export const removeFavorite = async (imdbID: string): Promise<Storage[]> => {
 
 export const loadFavorites = (): Storage[] => {
    const storedContent = localStorage.getItem('movies')
-   return storedContent === null ? StorageInitialState : JSON.parse(storedContent)
+   return storedContent === null ? [] : JSON.parse(storedContent)
 }
 
 export const getFavoritesInitialState = () => {

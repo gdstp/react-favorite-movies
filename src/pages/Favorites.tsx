@@ -12,7 +12,6 @@ const Favorites: React.FC = () => {
       <div>
          <TopBar />
          <Container style={{ marginTop: '84px' }}>
-
             <GridContainer>
                {likedMovies.length === 0 &&
                   <Alert severity="info" style={{ width: '100%' }}>
