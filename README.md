@@ -1,7 +1,5 @@
 # MOVIES
 
-## Introduction
-
 This project was built to practice web development using ReactJS. Mainly focusing in external API calls, storing data using LocalStorage and useContext, idealizing the use of Reducers and Actions to handle states and custom hook to debouce input values. For styling i decided to use [Material UI](https://material-ui.com/) just for test purpose.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
